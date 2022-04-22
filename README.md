@@ -26,11 +26,16 @@ memo.txt
 - macOS
 
 ## 使い方
-### 1. 環境変数の設定
+### 1. ホームディレクトリの下に`DesctopCleaner.sh`を置く
+```
+~ $ ls
+DesktopCleaner.sh
+```
+### 2. 環境変数の設定
 ```
 $ export $FILES=(任意のディレクトリ: 上の例では, ~/Files)
 ```
-### 2. crontabの設定
+### 3. crontabの設定
 ```
 $ crontab -e
 
