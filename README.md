@@ -14,7 +14,7 @@ memo.txt
 ~/Files $ ls
 ```
 1. yyyy/mm/dd(木)にPCを起動する.
-2. `memo.txt`はデスクトップから取り除かれ, `$HOME/yyyy/mm/dd/`の下に置かれる.
+2. `memo.txt`はデスクトップから取り除かれ, `~/Files/yyyy/mm/dd/`の下に置かれる.
 ```=shell
 ~/Desktop $ ls
 
